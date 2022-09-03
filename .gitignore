@@ -1,0 +1,8 @@
+build/*
+dist/*
+pregões
+venv
+ico.ico
+*.spec
+*.zip
+*.exe
