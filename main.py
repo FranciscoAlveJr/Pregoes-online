@@ -17,10 +17,10 @@ from sys import exit
 
 url_ini = 'http://aquisicoes.seplag.mt.gov.br/sgc/faces/priv/comum/PrincipalAreaLicitante.jsp'
 
-n = '0400168/2020'
+n = ''
 
-l = 'michelmab'
-s = 'Mic@1979'
+l = ''
+s = ''
 
 
 class Pregao():
@@ -259,7 +259,7 @@ class Pregao():
         self.janela = Tk()
         self.janela.title('SIAG BOT')
         self.janela.resizable(False, True)
-        self.janela.iconbitmap('ico.ico')
+        self.janela.iconbitmap('')
         # janela.geometry('540x520')
 
         main_frame = Frame(self.janela)
@@ -340,7 +340,7 @@ pregao = Pregao()
 janela = Tk()
 janela.title('SIAG BOT')
 janela.resizable(False, False)
-janela.iconbitmap('ico.ico')
+janela.iconbitmap('')
 janela.geometry('300x170')
 
 Label(janela, text='Login:').grid(column=0, row=0, pady=10, columnspan=3)
